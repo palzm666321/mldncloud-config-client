@@ -6,26 +6,26 @@ spring:
 spring:
   profiles: dev
   application:
-    name: mldncloud-config-client                  # ¶¨ÒåÎ¢·şÎñÃû³Æ
+    name: mldncloud-config-client                  # å®šä¹‰å¾®æœåŠ¡åç§°
 server:
-  port: 8101                                      # ·şÎñ¶Ë¿Ú
+  port: 8101                                      # æœåŠ¡ç«¯å£
 eureka:
-  client:                                         # ¿Í»§¶Ë½øĞĞEureka×¢²áµÄÅäÖÃ
-    service-url:                                  # ¶¨ÒåEureka·şÎñµØÖ·
+  client:                                         # å®¢æˆ·ç«¯è¿›è¡ŒEurekaæ³¨å†Œçš„é…ç½®
+    service-url:                                  # å®šä¹‰EurekaæœåŠ¡åœ°å€
       defaultZone: http://edmin:mldnjava@eureka-7001.com:7001/eureka
   instance:
-    instance-id: config-client.com                    # ÏÔÊ¾Ö÷»úÃû³Æ
+    instance-id: config-client.com                    # æ˜¾ç¤ºä¸»æœºåç§°
 ---
 spring:
   profiles: product
   application:
-    name: mldncloud-config-client                  # ¶¨ÒåÎ¢·şÎñÃû³Æ
+    name: mldncloud-config-client                  # å®šä¹‰å¾®æœåŠ¡åç§°
 server:
-  port: 8102                                      # ·şÎñ¶Ë¿Ú
+  port: 8102                                      # æœåŠ¡ç«¯å£
 eureka:
-  client:                                         # ¿Í»§¶Ë½øĞĞEureka×¢²áµÄÅäÖÃ
-    service-url:                                  # ¶¨ÒåEureka·şÎñµØÖ·
+  client:                                         # å®¢æˆ·ç«¯è¿›è¡ŒEurekaæ³¨å†Œçš„é…ç½®
+    service-url:                                  # å®šä¹‰EurekaæœåŠ¡åœ°å€
       defaultZone: http://edmin:mldnjava@eureka-7001.com:7001/eureka
   instance:
-    instance-id: config-client.com                    # ÏÔÊ¾Ö÷»úÃû³Æ
+    instance-id: config-client.com                    # æ˜¾ç¤ºä¸»æœºåç§°
 
